@@ -24,7 +24,7 @@ module.exports = ease => {
 This plugin takes a config object similar to [HTML Minifier Options](https://www.npmjs.com/package/html-minifier#options-quick-reference) while adding the following properties:
   - `dir`: Path to a directory containing all the SASS files, relative to `easeconfig.js`
   - `outDir`: Path to the output directory where the CSS files should be written, relative to `easeconfig.js`
-  - `clearOutDir`: Boolean indicating if the output directory should be emptied first
+  - `cleanOutDir`: Boolean indicating if the output directory should be emptied first
 
 # Example
 
